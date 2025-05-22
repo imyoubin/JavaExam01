@@ -47,10 +47,8 @@ public class Person {
 
 	public void showInfo() {
 		System.out.println("---------------------------------------------------------");		
-		System.out.println("이름: "+name);
-		
-		System.out.println("핸드폰: "+hp);
-		
+		System.out.println("이름: "+name);		
+		System.out.println("핸드폰: "+hp);		
 		System.out.println("회사: "+company);
 		System.out.println("---------------------------------------------------------");
 	}

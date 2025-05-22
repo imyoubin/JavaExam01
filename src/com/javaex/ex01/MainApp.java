@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class MainApp {
 
 	public static void main(String[] args) {
-		
+		/*
 		Scanner sc = new Scanner(System.in);
 		System.out.println("숫자를 입력하세요");
         System.out.print("숫자: ");
@@ -22,6 +22,24 @@ public class MainApp {
             System.out.println(num+"는 0보다 작은 수 입니다.");
         }
 			
+		sc.close();
+		*/
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("숫자를 입력하세요.");
+		System.out.print("숫자:");
+		int num = sc.nextInt();
+		
+		if(num<0) {
+			System.out.println( num + "는 0 보다 작은 수 입니다.");
+		
+		}else if(num%2==0) {
+			System.out.println(num + "은 짝수 입니다.");
+		}else {
+			System.out.println(num + "은 홀수 입니다.");
+		}
+	
 		sc.close();
 	}
 
